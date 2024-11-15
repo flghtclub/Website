@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monkey External by Thunder Client</title>
+    <style>
+        /* General body and font styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ff416c 0%, #ff4b2b 100%);
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        /* Header with gradient and shadow */
+        header {
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+            background: linear-gradient(to right, #780206 0%, #061161 100%);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Navigation bar with hover effect */
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 12px 0;
+            background: rgba(77, 19, 29, 0.85);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        nav a:hover {
+            background-color: #ff6347;
+            color: #000;
+            border-radius: 4px;
+        }
+
+        /* Container and section styles with glassmorphism */
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            margin: 20px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            width: 80%;
+            max-width: 800px;
+        }
+
+        /* Stylish footer */
+        footer {
+            background-color: #1a0000;
+            color: white;
+            text-align: center;
+            padding: 12px 20px;
+            position: relative;
+            width: 100%;
+        }
+
+        /* Animations for elements */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Animation application */
+        header, nav, .container, footer {
+            animation: fadeIn 1s ease-out;
+        }
+
+        /* List styles in features section */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 8px;
+            border-bottom: 1px solid #eee;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+
+        /* Button styles with hover effect */
+        button {
+            background-color: #e63946;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition: background-color 0.3s, transform 0.2s;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #d90429;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🐵 Monkey External by Thunder Client 🐵</h1>
+        <p>The best free Roblox external anti-cheat tool, trusted by many!</p>
+    </header>
+    <nav>
+        <a href="#about">🏠 About</a>
+        <a href="#features">🌟 Features</a>
+        <a href="#download">⬇️ Download</a>
+        <a href="#contact">✉️ Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <h2>About Monkey External</h2>
+            <p>Developed by the Thunder Client team, Monkey External is a leading anti-cheat tool designed to prevent aimbot and ESP hacks in Roblox games. It ensures fair play and a better gaming experience for all users.</p>
+        </section>
+        <section id="features">
+            <h2>Features</h2>
+            <ul>
+                <li>🔒 Real-time detection of aimbots and ESP hacks</li>
+                <li>🖥️ User-friendly interface</li>
+                <li>🔄 Constant updates to tackle new threats</li>
+                <li>💸 Completely free for all Roblox developers</li>
+            </ul>
+        </section>
+        <section id="download">
+            <h2>Download</h2>
+            <p>Get the latest version of Monkey External and start protecting your games today. Click below to download:</p>
+            <button onclick="window.location.href='#';">Download Now</button>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Join our Discord for support and community interaction:</p>
+            <p><a href="https://discord.gg/thunderclient">discord.gg/thunderclient</a></p>
+        </section>
+    </div>
+    <footer>
+        <p>© 2024 Thunder Client Team. All rights reserved.</p>
+    </footer>
+</body>
+</html>
